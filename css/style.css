@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: "PT_Sans-Regular";
+    src: url("../font/PT_Sans-Web-Regular.ttf");
+}
+
+@font-face {
     font-family: "PT_Sans";
     src: url("../font/PT_Sans-Web-Italic.ttf");
 }
@@ -113,6 +118,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 61%;
+    color: #665f60;
+    font-family: PT_Sans-Regular;
 }
 
 .content_about_text button {
@@ -284,8 +291,7 @@ body {
 
 .content_works {
     height: 1000px;
-    background-image: url("../img/works_bg.png");
-    background-size: contain;
+    background: url("../img/works_bg.png");
 }
 
 .works_title  {
@@ -298,8 +304,218 @@ body {
     font-family: ProximaNova;
 }
 
+.works_carousel {
+    display: flex;
+    justify-content: center;
+}
+
 .works_showcase {
     height: 621px;
     width: 732px;
-    margin-left: 300px;
+}
+
+.works_button {
+    display: flex;
+    justify-content: center;
+}
+
+.works_button button {
+    background-color: transparent;
+    font-size: 17px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    height: 50px;
+    width: 190px;
+    font-family: PT_Sans;
+    margin-top: 70px;
+}
+
+.content_our-team {
+    height: 820px;
+    background-color: #ebebeb;
+}
+
+.our-team_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    color: #665f60;
+    font-size: 26px;
+    font-family: ProximaNova;
+}
+
+.content_person {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 160px;
+}
+
+.person_1 {
+    height: 355px;
+    width: 350px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.person_1-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.person_1-title img {
+    margin-top: -130px;
+}
+
+.person_1-title h3 {
+    color: #9f9acf;
+    font-family: ProximaNova;
+    font-size: 19px;
+    margin: 0;
+    padding-top: 45px;
+}
+
+.person_1-title p {
+    color: #665f60;
+    font-family: PT_Sans;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.person_1-socmed {
+    width: 100%;
+    height: 15%;
+    background: #9f9acf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.person_2 {
+    height: 355px;
+    width: 350px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.person_2-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.person_2-title img {
+    margin-top: -130px;
+}
+
+.person_2-title h3 {
+    color: #9f9acf;
+    font-family: ProximaNova;
+    font-size: 19px;
+    margin: 0;
+    padding-top: 45px;
+}
+
+.person_2-title p {
+    color: #665f60;
+    font-family: PT_Sans;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.person_2-socmed {
+    width: 100%;
+    height: 15%;
+    background: #9f9acf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.person_3 {
+    height: 355px;
+    width: 350px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.person_3-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.person_3-title img {
+    margin-top: -130px;
+}
+
+.person_3-title h3 {
+    color: #9f9acf;
+    font-family: ProximaNova;
+    font-size: 19px;
+    margin: 0;
+    padding-top: 45px;
+}
+
+.person_3-title p {
+    color: #665f60;
+    font-family: PT_Sans;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.person_3-socmed {
+    width: 100%;
+    height: 15%;
+    background: #9f9acf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.content_contact {
+    height: 900px;
+    width: 100%;
+}
+
+.contact_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    color: #ffffff;
+    font-size: 26px;
+    font-family: ProximaNova;
+    position: relative;
+}
+
+.footer {
+    height: 150px;
+    background-color: #9f9acf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_text {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: PT_Sans-Regular;
+}
+
+.footer_socmed img {
+    padding-left: 15px;
 }
