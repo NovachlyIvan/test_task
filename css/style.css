@@ -180,7 +180,7 @@ body {
 .rectangle_1 .square2 {
     width: 100%;
     height: 50%;
- }
+}
 
 .rectangle_1 .square2 img {
     padding: 100px 129px 30px 129px;
@@ -261,7 +261,6 @@ body {
     padding: 20px 70px 0 70px;
 }
 
-
 .rectangle_3 {
     height: 100%;
     width: 40%;
@@ -294,7 +293,7 @@ body {
     background: url("../img/works_bg.png");
 }
 
-.works_title  {
+.works_title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -348,7 +347,8 @@ body {
 .content_person {
     display: flex;
     justify-content: space-around;
-    padding-top: 160px;
+    padding: 180px 100px 0 100px;;
+    height: 480px;
 }
 
 .person_1 {
@@ -487,8 +487,9 @@ body {
 }
 
 .content_contact {
-    height: 900px;
-    width: 100%;
+    height: 749px;
+    background: url("../img/map.png") no-repeat;
+    background-size: contain;
 }
 
 .contact_title {
@@ -500,6 +501,89 @@ body {
     font-size: 26px;
     font-family: ProximaNova;
     position: relative;
+}
+
+.contact_form {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.contact_form form {
+    width: 865px;
+    height: 280px;
+}
+
+.field_1-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_form .field_1-2 input {
+    height: 50px;
+    width: 415px;
+    background: #d5d4e0;
+    opacity: 0.7;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: PT_Sans;
+    font-size: 16px;
+}
+
+.field_3 {
+    padding-top: 30px;
+}
+
+.contact_form .field_3 textarea {
+    height: 200px;
+    width: 100%;
+    background: #d5d4e0;
+    opacity: 0.7;
+    border: none;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: PT_Sans;
+    font-size: 16px;
+}
+
+.contact_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.contact_button button {
+    height: 65px;
+    width: 260px;
+    border: none;
+    background-color: #9f9acf;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: ProximaNova;
+    color: #d8d6e0;
+}
+
+.contact_button_top {
+    display: flex;
+    justify-content: end;
+    margin-top: -70px;
+    margin-right: 95px;
+}
+
+.contact_button_top button{
+    height: 85px;
+    width: 85px;
+    border: none;
+    background-color: #9f9acf;
+    opacity: 0.6;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: ProximaNova;
+    color: #d8d6e0;
 }
 
 .footer {
